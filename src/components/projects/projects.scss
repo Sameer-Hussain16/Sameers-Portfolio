@@ -1,0 +1,154 @@
+@media (min-width: 350px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+        transition: all 0.2s;
+        margin-top: 1.88rem;
+    }
+
+    .left-project {
+        color: #0B0C0E;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .right-project {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        cursor: pointer;
+    }
+
+    .right-project h1 {
+        width: 20.125rem;
+        color: var(--Black, #0B0C0E);
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-top: 1rem;
+
+    }
+
+    .right-project p {
+        color: var(--Dark-Greay, #3C3D3E);
+        font-size: 0.625rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        padding-bottom: 1rem;
+
+
+    }
+
+    .right-project p:last-of-type {
+        border-bottom: 1px solid #C7D0D9;
+        width: 847.002px;
+    }
+
+
+
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .right-project h1 {
+        font-size: 1.5rem;
+    }
+
+    .right-project p {
+        font-size: 0.8rem;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .projects {
+        display: flex;
+        transition: all 0.2s;
+        flex-direction: row;
+    }
+
+    .left-project {
+        width: 35%;
+        color: #0B0C0E;
+        font-size: 1.7em;
+        // padding-left: 30px;
+        margin-left: 4rem;
+        padding-top: 0.9em;
+    }
+
+    .right-project {
+        width: 60%;
+        padding-top: 1em;
+    }
+
+    .right-project h1 {
+        font-size: 30px;
+    }
+
+
+
+}
+
+//   /* xl */
+@media (min-width: 1280px) {
+    .left-project {
+        font-size: 2.5em;
+        
+    }
+
+
+    .right-project {
+        width: 60%;
+    }
+
+    .right-project h1 {
+        font-size: 3.75rem;
+        display: flex;
+        font-weight: 500;
+        width: 100%;
+        margin-bottom: .5rem;
+        padding-top: 2rem;
+
+    }
+
+
+    .right-project p {
+        font-size: 1.125rem;
+        line-height: 160%;
+
+    }
+
+    .right-project p:last-of-type {
+        border-bottom: 1px solid #C7D0D9;
+        width: 847.002px;
+        padding-bottom: 2rem;
+
+    }
+
+    .right-project h1:hover {
+        opacity: 1;
+    }
+
+    .all-project:hover h1 {
+        transform: translateX(8px);
+    }
+
+    .all-project:hover p {
+        transform: translateX(15px);
+    }
+
+    .right-project h1 {
+        transition: all 0.4s;
+    }
+
+    .right-project p {
+        transition: all 0.4s;
+    }
+}

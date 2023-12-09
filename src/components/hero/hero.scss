@@ -1,0 +1,51 @@
+@media (max-width: 350px) {
+    .hero{
+      display: none;
+    }
+  }
+    /* xxs */
+@media (min-width: 350px) {
+    
+.hero {
+  display: none;
+}
+
+  }
+  
+  /* xl */
+  @media (min-width: 1280px) {
+    .hero {
+      display: flex;
+      position: absolute;
+      top: calc(100vh - 350px);
+      overflow: hidden;
+  
+      .container {
+          position: relative;
+          white-space: nowrap;
+      }
+  
+      .container p {
+        position: absolute;
+          margin: 0px;
+          color: #F4F7FA;
+          font-size: 150.378px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          width: auto;
+          white-space: nowrap;
+
+      }
+
+  
+      .container p:nth-of-type(2){
+          position: relative;
+          left: 100%;
+          top: 0;
+      }
+}
+    
+  }
+
+

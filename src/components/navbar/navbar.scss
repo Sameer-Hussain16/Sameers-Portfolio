@@ -1,0 +1,124 @@
+/* xxs */
+@media (min-width: 20px) {
+  .container {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+  }
+
+  .background-image {
+    background-image: url("/union.png");
+    background-size: cover;
+    background-position: center center;
+    width: 150%;
+    height: 100%;
+  }
+
+  .name {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 36px;
+    background: #F4F7FA;
+    width: 170px;
+    height: 33px;
+    flex-shrink: 0;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 28px;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navigation {
+    display: none;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    height: 67vh;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+
+  .background-image {
+    background-image: url('union.png');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    padding: 30px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navigation {
+    display: block;
+    margin-left: auto;
+    padding-right: 20px;
+  }
+
+  .nav-item {
+    color: var(--Black, #0b0c0e);
+    font: 400 18px/21px Raleway, sans-serif;
+    cursor: pointer;
+  }
+
+  .navigation {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+
+  }
+
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    height: 100vh;
+    padding: 33px;
+  }
+
+  .name {
+    border-radius: 2.25rem;
+    background: #F4F7FA;
+    width: 11.75rem;
+    height: 2.8125rem;
+    flex-shrink: 0;
+    position: relative;
+    margin-top: 23px;
+    cursor: pointer;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+
+  .navigation {
+    padding-right: 70px;
+    padding-top: 10px;
+  }
+}
